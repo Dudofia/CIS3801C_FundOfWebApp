@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Le'Spy Cafe</title>
+  <meta name="description" content="Le'Spy Coffee and Pastry Spot">
+  <meta name="author" content="David Udofia">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/slicknav.min.css">
+  <link rel="stylesheet" href="css/pgwslideshow.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  
+   <!--Modernizr-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="icon/svg" href="images/lconB.svg">
+
+</head>
+<body>
+       
+<header id="tops">
+      
+       <div class="logo row">
+          <div class="two columns">
+            <a href="index.html">Le'Spy</a>        
+          </div><!--column-->
+       </div>   <!--row-->
+       
+         <!--Begin Nav-->
+        
+        <nav id="menu" class="u-pull-right row">
+          <div class="ten column">          
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="coffee.html">COFFEE</a></li>
+                    <li><a href="display.php">DISPLAY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="location.html">LOCATION</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--End Nav-->
+</header>
+    
+    <section class="contact u-full-width">
+     
+    <h3>Contact</h3>
+     <div class="container">
+      <form>
+          <div class="row">
+            <div class="six columns">
+              <label for="CustomerEmail">Your email</label>
+              <input class="u-full-width" type="email" placeholder="you@youremail.com" id="CustomerEmail">
+            </div>
+            <div class="six columns">
+              <label for="ClientInput">Reason for contacting</label>
+              <select class="u-full-width" id="ClientInput">
+                <option value="Option 1">Questions</option>
+                <option value="Option 2">Catering</option>
+                <option value="Option 3">Suggestions</option>
+              </select>
+            </div>
+          </div>
+          <label for="CustomerMessage">Message</label>
+          <textarea class="u-full-width" placeholder="Hi Le'Spy …" id="CustomerMessage"></textarea>
+          <label class="example-send-yourself-copy">
+            <input type="checkbox">
+            <span class="label-body">Send a copy to yourself</span>
+          </label>
+          <input class="button-primary" type="submit" value="Submit">
+      </form> 
+      </div>
+    </section>
+      
+    <!--Social Media Container-->  
+    <section id="social">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                   <ul class="socialMedia">
+                       <li class="twitter"><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                       <li class="facebook"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                       <li class="instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
+                       <li class="pinterest"><a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
+                    </ul> 
+                 </div><!--column-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+    <!--End Social Media-->   
+    
+    
+    <!--Begin Footer-->   
+<f<footer id="bottoms">
+        <div class= "row twelve columns">
+               <h2 id="foot">Contact</h2>
+               <p>2800 Hennepin Avenue South, Minneapolis, MN 55405</p>
+               <p>&copy; 2019 Le'Spy Cafe. All Rights Reserved.</p> 
+        </div>
+</footer>
+    <!--End Footer-->
+
+
+ <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+ <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+  <!--Slicknav-->
+  <script src="js/jquery.slicknav.min.js"></script>
+
+  <!--PgwSlidehsow Plugin-->
+  <script src="js/pgwslideshow.js"></script>
+  
+  <script>
+      $(document).ready(function(){
+      $('#menu').slicknav();
+      });
+  </script>
+
+</body>
+</html>

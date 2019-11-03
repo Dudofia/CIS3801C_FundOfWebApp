@@ -1,0 +1,230 @@
+/* Table of Contents
+----------------------------------------------------------
+- General Content
+- Typography
+- Header & Navigation
+- Images & Media
+- Footer
+- Media Queries
+__________________________________________________________ */
+
+/* General Content
+__________________________________________________________ */
+
+body {
+    font-family: 'Lora', serif;
+    font-size: 1.5em;
+    width: 100%;  
+}
+
+.pgwSlideshow {
+    margin-top: 0.5em;
+}
+/* Typography
+__________________________________________________________ */
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+
+p {
+    line-height: 2em;
+    font-size: 1.2em;
+    padding: 0.5em;
+}
+
+/* Header & Navigation
+__________________________________________________________ */
+#tops {
+   background-color: #f6f6f6;
+   height: 6em;
+   margin: 0;
+   padding: 0;
+   
+} 
+#menu{
+    width: 65%;
+    margin: -3em 0 0 0;  
+}
+
+#menu ul{
+    padding: 0;
+    margin: 0;
+}
+
+#menu li{
+    display: inline;
+    position: relative;
+}
+
+#menu ul ul{
+    position: absolute;
+    display: none;
+    margin: 0 0 0 -1.4em;
+    padding: 0;
+}
+
+#menu li:hover ul {
+    display: block;
+}
+
+
+#menu ul li{
+    font-family: 'Roboto Slab', serif;
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 1.5em;
+}
+
+#menu ul li a{
+    color: #000000;
+    text-decoration: none;  
+    margin: 0.5em;
+    letter-spacing: 0.2em;
+}
+
+#menu ul li a:hover {
+    color: #5a4ea1;
+}
+
+.logo {
+    width: 15%;
+    padding: 1.2em;
+}
+
+.logo a {
+    font-family: 'Roboto Slab', serif;
+    text-decoration: none;
+    font-size: 1.5em;
+    color: #5a4ea1;
+    letter-spacing: 0.1em;
+    border-color: #5A4EA1;
+    border-style: solid;
+    border-width: 0.093em;
+    padding: 0.5em;
+}
+
+.slicknav_menu {
+	display: none;
+}
+
+/* Images & Media
+__________________________________________________________ */
+
+
+
+/* Footer
+__________________________________________________________ */
+#bottoms {
+    font-family: 'Roboto Slab', serif;
+    background-color: #373637;
+    height: 15em;
+    color: #d0cece;
+    padding: 1em;
+}
+
+#bottoms p {
+    text-align: center;
+    line-height: 1em;
+}
+
+/* Media & Queries
+__________________________________________________________ */
+@media screen and (max-width: 48em) {
+	.js #menu {
+		display:none;
+	}
+	
+	.js .slicknav_menu {
+		display:block;
+	}
+}
+
+@media (max-width: 58em) {
+    #menu ul li a{
+    margin-left: 2.5em;
+   
+}
+    
+}
+
+@media (max-width: 28em) {
+    .socialMedia li {
+     font-size: 1em;   
+    }
+     
+    .brand {
+    margin: 0 0 0 4.5em;
+    width: 100%;
+    }
+    
+    #header {
+    background-color: #444444;
+    height: 4em;
+    max-width: 100%;
+    padding: 1em;
+    }
+    
+}
+
+
+/* HomePage
+---------------------------------------------------------- */
+
+#welcome {
+    background-color: #ededed;
+    padding: 1em;
+    margin: 0;
+}
+
+#social {
+    background-color: #f6f6f6;
+}
+
+.socialMedia {
+    margin:  1em 0 1em 0;
+    text-align: center;
+}
+
+.socialMedia li {
+    list-style-type: none;
+    display: inline;
+    padding: 1em;
+    font-size: 1.5em;  
+}
+
+.socialMedia li a {
+    color: #5a4ea1;
+}
+
+.separator {
+    padding: 0.5em;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+    border-bottom-width: 0.035em;
+}
+/* Page 2
+---------------------------------------------------------- */
+
+/* Page 3
+---------------------------------------------------------- */
+
+/* Page 4
+---------------------------------------------------------- */
+
+/* Page 5
+---------------------------------------------------------- */

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Le'Spy Cafe</title>
+  <meta name="description" content="Le'Spy Coffee and Pastry Spot">
+  <meta name="author" content="David Udofia">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/slicknav.min.css">
+  <link rel="stylesheet" href="css/pgwslideshow.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+  
+   <!--Modernizr-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+  
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="icon/svg" href="images/lconB.svg">
+
+</head>
+<body>
+       
+<header id="tops">
+      
+       <div class="logo row">
+          <div class="two columns">
+            <a href="index.html">Le'Spy</a>        
+          </div><!--column-->
+       </div>   <!--row-->
+       
+         <!--Begin Nav-->
+        
+        <nav id="menu" class="u-pull-right row">
+          <div class="ten column">          
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a> </li>
+                    <li><a href="coffee.html">COFFEE</a></li>
+                    <li><a href="display.php">DISPLAY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="location.html">LOCATION</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!--End Nav-->
+</header>
+
+        <!--Begin Carousel-->
+        <ul class="pgwSlideshow">
+            <li><img src="images/Girl-With-Coffee.jpg"></li>
+            <li><img src="images/Coffee-With-Receipt.jpg"></li>
+            <li><img src="images/Pastry.jpg"></li>
+            <li><img src="images/Girl-Working-on-Computer.jpg"></li>
+            <li><img src="images/Girl-Holding-Coffee.jpg"></li>
+            <li><img src="images/Coffee-on-Table.jpg"></li>
+            <li><img src="images/Lady-On-Computer.jpg"></li>
+        </ul>
+        <!--End Carousel-->
+  
+
+      
+   <section id="welcome" class="u-full-width">
+        <div class="container">
+              <div class="row">
+                 <div class="twelve columns">
+                   <h1 class="separator">Welcome to Le'Spy</h1>
+                       <p>We are a locally owned and independent cafe in uptown Minneapolis. At Le'Spy we aim to provide you with the best coffee experience ever. We roast our coffee beans onsite daily. All our pastry items are freshly baked each morning.
+                       <br>
+                       We are committed to perfecting coffee excellence. We cater to clients with varying dietary needs. We ensure that every cup of java, every bag of joe, and every morsel of our pastries are made with love and with the freshest of ingredients.
+                       </p>              
+                 </div><!--column-->
+              </div><!--row-->
+        </div><!--container-->
+    </section>
+       
+    <section id="social">
+        <div class="container">
+            <div class="row">
+                <div class="twelve columns">
+                   <ul class="socialMedia">
+                       <li class="twitter"><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+                       <li class="facebook"><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                       <li class="instagram"><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li> 
+                       <li class="pinterest"><a href="#"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
+                    </ul> 
+                 </div><!--column-->
+            </div><!--row-->
+        </div><!--container-->
+    </section>
+        
+   
+<footer id="bottoms">
+        <div class= "row twelve columns">
+               <h2 id="foot">Contact</h2>
+               <p>2800 Hennepin Avenue South, Minneapolis, MN 55405</p>
+               <p>&copy; 2019 Le'Spy Cafe. All Rights Reserved.</p> 
+        </div>
+</footer>
+
+  <!-- Primary Page Layout
+  ––––––––––––––––––––––––––––––––––––––––––––––––––-->
+
+
+  <!-- End Document
+  ––––––––––––––––––––––––––––––––––––––––––––––––––-->
+  <!--jQuery-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+  <!--Slicknav-->
+  <script src="js/jquery.slicknav.min.js"></script>
+
+  <!--PgwSlidehsow Plugin-->
+  <script src="js/pgwslideshow.js"></script>
+  
+  <script>
+    $(document).ready(function() {
+    var pgwSlideshow = $('.pgwSlideshow').pgwSlideshow();
+    pgwSlideshow.startSlide({
+    transitionEffect : 'fading',
+    adaptiveDuration : 3000
+    });
+    });  
+  </script>
+  
+  <script>
+      $(document).ready(function(){
+      $('#menu').slicknav();
+      });
+  </script> 
+  
+</body>
+</html>
